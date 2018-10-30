@@ -1,5 +1,5 @@
-require './test_helper'
-require './bank'
+require './test_helper.rb'
+require './bank.rb'
 
 class TestMeme < Minitest::Test
   def test_when_transfer_with_different_bank_and_amount_is_1_should_pay_fee_0
